@@ -1,6 +1,6 @@
 <script src="https://checkout.stripe.com/checkout.js"></script>
 
-<input id="customButton" type="image" src="/uploads/8/5/3/9/8539131/order-now-circled_1_orig.png" alt="ORDER NOW">
+<input role="button" id="customButton" type="image" src="/uploads/8/5/3/9/8539131/order-now-circled_1_orig.png" alt="ORDER NOW">
 
 <script>
 var handler = StripeCheckout.configure({
